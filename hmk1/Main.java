@@ -12,13 +12,15 @@ public class Main {
 
         System.out.println("Numbers between " + num1 + " and " + num2 + ":");
 
-        // Kucukten buyuge siralamak icin kontrol
+        
         int start = Math.min(num1, num2);
         int end = Math.max(num1, num2);
 
         for (int i = start + 1; i < end; i++) {
+              if(i%2 == 0){
             System.out.print(i + " ");
         }
+}
         System.out.println();
     }
 }
