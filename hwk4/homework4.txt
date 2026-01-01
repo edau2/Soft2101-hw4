@@ -1,1 +1,29 @@
+STEP A:
+git config --list
 
+STEP B:
+Cloned successfully.
+
+STEP C:
+Files in .git directory: HEAD, config, description, hooks, info, objects, refs...
+Markdown Link: [Işık University Software Engineering Dept.](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+STEP D:
+Rules in .gitignore:
+*.class
+*.log
+.DS_Store
+
+STEP F:
+Commits on feature-1: "satisfying requirement one"
+Files in hmk1 (feature-1): Main.java
+
+STEP J:
+Commits on feature-2: "satisfying requirement change two"
+
+STEP K:
+Commits on feature-3: "satisfying requirement change three"
+
+STEP M:
+Difference between branches: Main branch now includes merged changes.
+Conflict Resolution: I opened Main.java, removed the conflict markers (<<<<, ====, >>>>), and edited the code to print all numbers (removed if conditions) to satisfy the final merge requirement.
